@@ -553,93 +553,122 @@ h6,
     }
 }
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+/* General styling for the service section */
 .service-11 {
-  font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
-  font-weight: 300;
-}
-
-.service-11 h1, .service-11 h2, .service-11 h3, .service-11 h4, .service-11 h5, .service-11 h6 {
-  color: #3e4555;
-}
-
-.service-11 .font-weight-medium {
-	font-weight: 500;
-}
-
-.service-11 .bg-light {
-    background-color: #f4f8fa !important;
-}
-
-.service-11 .subtitle {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  /* Heading colors */
+  .service-11 h1, .service-11 h2, .service-11 h3, .service-11 h4, .service-11 h5, .service-11 h6 {
+    color: #3e4555;
+  }
+  
+  /* Font weight for medium text */
+  .service-11 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  /* Light background for the section */
+  .service-11 .bg-light {
+    /* background-color: #f4f8fa !important; */
+  }
+  
+  /* Subtitle color and line height */
+  .service-11 .subtitle {
     color: #8d97ad;
     line-height: 24px;
-}
-
-.service-11 .card.card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-}
-
-.service-11 .wrap-service11-box {
-  margin-top: 60px;
-}
-
-.service-11 .wrap-service11-box .icon-space {
-  margin: -70px 0 20px;
-}
-
-.service-11 .wrap-service11-box .icon-space .icon-round {
-  font-size: 45px;
-  color: #ffffff;
-}
-
-.service-11 .bg-success-gradiant {
-    background: #3F66FC;
-    background: -webkit-linear-gradient(legacy-direction(to right), #3F66FC 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#3F66FC), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #3F66FC 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #3F66FC 0%, #1dc8cc 100%);
+  }
+  
+  /* Card shadow and smooth transition */
+  .service-11 .card.card-shadow {
+    box-shadow: 0px 4px 12px rgba(115, 128, 157, 0.2); /* More subtle shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Card hover effect */
+  .service-11 .card.card-shadow:hover {
+    box-shadow: 0px 12px 20px rgba(115, 128, 157, 0.4); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+  }
+  
+  /* Wrapper box styling */
+  .service-11 .wrap-service11-box {
+    margin-top: 60px;
+  }
+  
+  /* Icon space styling */
+  .service-11 .wrap-service11-box .icon-space {
+    margin: -70px 0 20px;
+  }
+  
+  /* Icon styling */
+  .service-11 .wrap-service11-box .icon-space .icon-round {
+    font-size: 45px;
+    color: #ffffff;
+  }
+  
+  /* Gradient background for icons */
+  .service-11 .bg-success-gradiant {
     background: linear-gradient(to right, #3F66FC 0%, #1dc8cc 100%);
-}
-
-.service-11 .icon-round {
-		width: 80px;
+  }
+  
+  /* Icon round styling */
+  .service-11 .icon-round {
+    width: 80px;
     line-height: 80px;
-}
-
-.service-11 .btn-success-gradiant {
-		background: #3F66FC;
-    background: -webkit-linear-gradient(legacy-direction(to right), #3F66FC 0%, #1dc8cc 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#3F66FC), to(#1dc8cc));
-    background: -webkit-linear-gradient(left, #3F66FC 0%, #1dc8cc 100%);
-    background: -o-linear-gradient(left, #3F66FC 0%, #1dc8cc 100%);
+    transition: background 0.3s ease; /* Smooth transition for icon background */
+  }
+  
+  /* Success gradient button styling */
+  .service-11 .btn-success-gradiant {
     background: linear-gradient(to right, #3F66FC 0%, #1dc8cc 100%);
-}
-
-.service-11 .btn-success-gradiant:hover {
-		background: #1dc8cc;
-    background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #3F66FC 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#3F66FC));
-    background: -webkit-linear-gradient(left, #1dc8cc 0%, #3F66FC 100%);
-    background: -o-linear-gradient(left, #1dc8cc 0%, #3F66FC 100%);
-    background: linear-gradient(to right, #1dc8cc 0%, #3F66FC 100%);	
-}
-
-.service-11 .btn-md {
+  }
+  
+  /* Success gradient button hover effect */
+  .service-11 .btn-success-gradiant:hover {
+    background: linear-gradient(to right, #1dc8cc 0%, #3F66FC 100%);
+    transition-duration: 0.3s;
+  }
+  
+  /* Medium size button styling */
+  .service-11 .btn-md {
     padding: 15px 45px;
     font-size: 16px;
+  }
+  
+  /* Outline success button hover effect */
+  .service-11 .btn-outline-success:hover {
+    box-shadow: 0px 8px 24px rgba(115, 128, 157, 0.3); /* Enhanced shadow on hover */
+
+    color: #ffffff !important;
+    transition: all  0.3s ease, transform 0.3s ease; /* Smooth transition */
+
+  }
+ /* Styling for h6 in service boxes */
+.service-11 .wrap-service11-box h6 {
+    color: #3F66FC; /* Main color for headings */
+    font-family: "Montserrat", sans-serif; /* Consistent font with the rest of the design */
+    text-align: center; /* Center align text */
+    font-size: 1.5rem; /* Appropriate font size */
+    font-weight: 700; /* Slightly heavier weight for emphasis */
+    margin-bottom: 15px; /* Space below the heading */
+    line-height: 1.4; /* Improve readability */
 }
-.service-11 .btn-outline-success:hover {
-    background: #3F66FC;
-border-color: #3F66FC;
-color: #ffffff !important;
+
+
+/* Improved hover effect for better UX */
+.service-11 .card.card-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 24px rgba(115, 128, 157, 0.3);
 }
+
+  
 .card:hover {
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
-    background: #3F66FC;
-    border-color: #3F66FC;
-    color: #ffffff !important;
+
+    color: #000 !important;
 }
