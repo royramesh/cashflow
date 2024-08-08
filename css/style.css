@@ -545,12 +545,26 @@ h6,
     width: 22rem;
     height: auto;
 }
+.logoclasssm{
+    display: none;
+}
 
 /* Media query for mobile devices */
 @media (max-width: 768px) { /* Adjust max-width as needed for mobile */
     .logoclass {
         width: 15.2rem;
         height: 40px;
+      
+    }
+}
+@media (max-width: 365px) { /* Adjust max-width as needed for mobile */
+    .logoclass {
+        display: none;
+    }
+    .logoclasssm{
+        display: block;
+        height: 100px;
+        width: 100px;
     }
 }
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
