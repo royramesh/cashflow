@@ -550,6 +550,7 @@ h6,
 @media (max-width: 768px) { /* Adjust max-width as needed for mobile */
     .logoclass {
         width: 15.2rem;
+        height: 40px;
     }
 }
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
@@ -568,11 +569,6 @@ h6,
   /* Font weight for medium text */
   .service-11 .font-weight-medium {
     font-weight: 500;
-  }
-  
-  /* Light background for the section */
-  .service-11 .bg-light {
-    /* background-color: #f4f8fa !important; */
   }
   
   /* Subtitle color and line height */
