@@ -31,7 +31,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        .contact-card {
+        /* .contact-card {
             margin: 20px;
             border-radius: 10px;
             height: 190px;
@@ -52,7 +52,7 @@
         }
         .card-body {
             background-color: #f8f9fa;
-        }
+        } */
     </style>
 </head>
 
@@ -125,46 +125,56 @@
         </div>
     </div>
     <!-- Page Header End -->
-
-
-
+     <!-- offices start -->
+    <div class="py-5 service-11 container-xxl py-5">
     <div class="container">
-        <div class="row">
-            <!-- Corporate Office Card -->
-            <div class="col-md-6">
-                <div class="card contact-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Corporate Office Address</h5>
-                        <p>S-6, Second Floor, Trimurti Tower,<br>
-                        Near HDFC Bank, Khati Pura Road,<br>
-                        Jhotwara, Jaipur, 302012</p>
+        <!-- Row -->
+        <div class="row d-flex justify-content-around">
+            <!-- Column -->
+            <div class="col-md-4 wrap-service11-box wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card card-shadow border-0 mb-4">
+                    <div class="p-4 text-center">
+                        <div class="icon-space">
+                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">C</div>
+                        </div>
+                        <h6 class="font-weight-medium">Corporate Office Address</h6>
+                        <p class="mt-3">S-6, Second Floor, Trimurti Tower,<br>
+                            Near HDFC Bank, Khati Pura Road,<br>
+                            Jhotwara, Jaipur, 302012</p>
+                        <p><strong>Mobile:</strong> 9352797612</p>
                     </div>
                 </div>
             </div>
-            <!-- Head Office/Register Office Card -->
-            <div class="col-md-6">
-                <div class="card contact-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Head Office/Register Office</h5>
-                        <p>SM Pally, MK Road,<br>
-                        PO- Malda, PS- English Bazar,<br>
-                        Dist- Malda, State- West Bengal,<br>
-                        PIN- 732101</p>
+            <!-- Column -->
+            <div class="col-md-4 wrap-service11-box wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card card-shadow border-0 mb-4">
+                    <div class="p-4 text-center">
+                        <div class="icon-space">
+                            <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">H</div>
+                        </div>
+                        <h6 class="font-weight-medium">Head Office/Register Office</h6>
+                        <p class="mt-3">SM Pally, MK Road,<br>
+                            PO- Malda, PS- English Bazar,<br>
+                            Dist- Malda, State- West Bengal,
+                            PIN- 732101</p>
                         <p><strong>Mobile:</strong> 6297415688</p>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- Column -->
+             </div>
+             </div>
     </div>
+<!-- offices end -->
 
     <!-- Contact Start -->
+     <section id="form">
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Contact</p>
                     <h1 class="display-5 mb-4">If You Have Any Query, Please Contact Us</h1>
-                    <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">
@@ -179,12 +189,39 @@
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <input type="number" class="form-control" id="number" placeholder="Your Email">
+                                    <label for="number">Contact Number</label>
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <select class="form-control" id="subject" aria-label="Subject">
+                                        <option value="BUSINESS LOAN">BUSINESS LOAN</option>
+                                        <option value="MACHINERY LOAN">MACHINERY LOAN</option>
+                                        <option value="UNSECURED LOAN">UNSECURED LOAN</option>
+                                        <option value="PROFESSIONAL LOAN">PROFESSIONAL LOAN</option>
+                                        <option value="PERSONAL LOAN4">PERSONAL LOAN4</option>
+                                        <option value="MORTGAGE LOAN">MORTGAGE LOAN</option>
+                                        <option value="HOME LOAN5">HOME LOAN5</option>
+                                        <option value="B2B FUNDING">B2B FUNDING</option>
+                                        <option value="LOAN AGAINST PROPERTY">LOAN AGAINST PROPERTY</option>
+                                        <option value="CHANNEL FINANCE">CHANNEL FINANCE</option>
+                                        <option value="WORKING CAPITAL">WORKING CAPITAL</option>
+                                        <option value="CAR LOAN">CAR LOAN</option>
+                                        <option value="CC LIMIT/OD LIMIT">CC LIMIT/OD LIMIT</option>
+                                        <option value="LIFE INSURANCE">LIFE INSURANCE</option>
+                                        <option value="MSME LOAN">MSME LOAN</option>
+                                        <option value="HEALTH INSURANCE">HEALTH INSURANCE</option>
+                                        <option value="EDUCATION LOAN">EDUCATION LOAN</option>
+                                        <option value="CAR INSURANCE">CAR INSURANCE</option>
+                                        <option value="PROJECT FUNDING">PROJECT FUNDING</option>
+                                        <option value="ACCIDENTAL INSURANCE">ACCIDENTAL INSURANCE</option>
+                                    </select>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>                            
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
@@ -199,9 +236,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
                     <div class="position-relative rounded overflow-hidden h-100">
-                        <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                        <iframe class="position-relative w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3556.7977386230996!2d75.75950177544051!3d26.94162587662981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDU2JzI5LjkiTiA3NcKwNDUnNDMuNSJF!5e0!3m2!1sen!2sin!4v1723027188063!5m2!1sen!2sin" frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                     </div>
                 </div>
@@ -209,7 +244,7 @@
         </div>
     </div>
     <!-- Contact End -->
-
+</section>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
